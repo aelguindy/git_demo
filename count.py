@@ -4,4 +4,7 @@ while True:
     l = raw_input()
     if not l: break;
     cnt += len(l.split(' '))
-print cnt
+if cnt:
+    print cnt, 1 / cnt
+else:
+    print cnt, "Inf"

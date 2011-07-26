@@ -1,3 +1,7 @@
+"""
+Counts the number of words
+"""
+
 cnt = 0
 while True:
 

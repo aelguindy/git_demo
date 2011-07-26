@@ -7,7 +7,7 @@ while True:
 
     l = raw_input()
     if not l: break;
-    ct += len(l.split(' '))
+    ct += len(l.split(' ')).split(',')
 if ct:
     print ct, 1 / ct
 else:

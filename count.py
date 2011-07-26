@@ -2,13 +2,13 @@
 Counts the number of words
 """
 
-cnt = 0
+ct = 0
 while True:
 
     l = raw_input()
     if not l: break;
-    cnt += len(l.split(' '))
-if cnt:
-    print cnt, 1 / cnt
+    ct += len(l.split(' '))
+if ct:
+    print ct, 1 / ct
 else:
-    print cnt, "Inf"
+    print ct, "Inf"
